@@ -9,3 +9,5 @@ hosts.preprod
 hosts.devcloud
 hosts.prod
 sentry.hosts
+
+provisions/pipeline-logs

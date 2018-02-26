@@ -8,7 +8,7 @@
   - jenkins/master
   - config
 
-- name: install jenkins master config files
+- name: Install jenkins master config files
   copy: >
     src="{{ item }}"
     dest="/var/lib/jenkins/{{ item }}"

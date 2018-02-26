@@ -1,6 +1,6 @@
 ---
 - name: create jenkins user
-  user: name=jenkins state=present createhome=yes system=no
+  user: name=jenkins state=present createhome=yes shell=/bin/bash system=no
   tags:
     - jenkins
     - jenkins/slave
